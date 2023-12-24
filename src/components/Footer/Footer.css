@@ -1,0 +1,23 @@
+.list-unstyled li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#main_footer {
+    background-color: #b83736;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+  }
+  
+
+  
+
+.social-icons{
+color: #fff;
+margin-right: 10;
+font-size: 35px;
+}

@@ -1,0 +1,13 @@
+.fas{
+    font-size: 18px;
+    /* margin-right: ; */
+}
+
+.token_line{
+    background-color: #B83736;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
