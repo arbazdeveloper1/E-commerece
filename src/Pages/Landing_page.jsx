@@ -2,8 +2,12 @@ import React from "react";
 import "../assets/Style/Home.css";
 import cloth_Img from "../assets/Images/cloth_img.jpg";
 import second_second_img from "../assets/Images/image_3.jpg";
+import groups from '../assets/Images/groups.jpg';
+import mood from '../assets/Images/mood.jpg';
+import quick_reorder from '../assets/Images/quick_reorder.jpg'
 
 export default function Landing_page() {
+  
   return (
     <>
       {/* ==============================   section no 1 =============================== */}
@@ -61,6 +65,55 @@ export default function Landing_page() {
           </div>
         </div>
       </div>
+      {/* ====================================   section no 2 closed ============================================ */}
+
+
+      {/* =============================================  section no 3 =================================================== */}
+
+      <div className="container-fluid">
+        <div className="row d-flex justify-content-center">
+
+          <div className="col-lg-4 favstore_community">
+            <div className="circle-container">
+            <div className="circle">
+            <img src={groups} alt="" height={58}/>
+            </div>       
+            <span className="image-text">10k+</span>
+            <span className="text_line">Favstore community</span>
+            </div>
+          </div>
+  
+
+
+          <div className="col-lg-4 happy_customer">
+            <div className="circle-container">
+            <div className="circle">
+            <img src={mood} alt="" />
+            </div>
+            <span className="image-text">1760+</span>
+            <span className="text_line">Happy customers</span>
+            </div>
+          </div>
+
+          <div className="col-lg-4 favstore_community">
+            <div className="circle-container">
+            <div className="circle">
+            <img src={quick_reorder} alt="" />
+            </div>
+            <span className="image-text">38k+</span>
+            <span className="text_line">Meter deliverd</span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      {/* =============================================  section no 3  closed =================================================== */}
+
+
+{/* =====================================================  seciton 4 ================================================= */}
+<div className="container-fluid"></div>
+
     </>
   );
 }
