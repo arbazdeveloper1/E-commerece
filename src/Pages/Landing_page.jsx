@@ -10,7 +10,6 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 import "../assets/Style/Home.css";
 import cloth_Img from "../assets/Images/cloth_img.jpg";
-<<<<<<< HEAD
 import second_second_img from "../assets/Images/image_3.png";
 import count1 from "../assets/Images/Group 40.png"
 import count2 from "../assets/Images/Group 41.png"
@@ -20,15 +19,8 @@ import importedimg2 from "../assets/Images/image_6.png"
 import importedimg3 from "../assets/Images/image_7.png"
 import importedimg4 from "../assets/Images/image_8.png"
 import sellerimg from "../assets/Images/Rectangle 58.png"
-=======
-import second_second_img from "../assets/Images/image_3.jpg";
-import groups from '../assets/Images/groups.jpg';
-import mood from '../assets/Images/mood.jpg';
-import quick_reorder from '../assets/Images/quick_reorder.jpg'
->>>>>>> 250a2869c5135948dbd52be5707a85510b191d11
 
 export default function Landing_page() {
-  
   return (
     <>
       {/* ==============================   section no 1 =============================== */}
@@ -86,7 +78,6 @@ export default function Landing_page() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       {/* ========================================section 3 count========================================= */}
       <div className="container-fluid " style={{ backgroundColor: '#BD8F6E' }}>
         <div className="row">
@@ -650,56 +641,6 @@ export default function Landing_page() {
           </div>
         </div>
       {/* ========================================section 8 faqs   closed here ========================================= */}
-=======
-      {/* ====================================   section no 2 closed ============================================ */}
-
-
-      {/* =============================================  section no 3 =================================================== */}
-
-      <div className="container-fluid">
-        <div className="row d-flex justify-content-center">
-
-          <div className="col-lg-4 favstore_community">
-            <div className="circle-container">
-            <div className="circle">
-            <img src={groups} alt="" height={58}/>
-            </div>       
-            <span className="image-text">10k+</span>
-            <span className="text_line">Favstore community</span>
-            </div>
-          </div>
-  
-
-
-          <div className="col-lg-4 happy_customer">
-            <div className="circle-container">
-            <div className="circle">
-            <img src={mood} alt="" />
-            </div>
-            <span className="image-text">1760+</span>
-            <span className="text_line">Happy customers</span>
-            </div>
-          </div>
-
-          <div className="col-lg-4 favstore_community">
-            <div className="circle-container">
-            <div className="circle">
-            <img src={quick_reorder} alt="" />
-            </div>
-            <span className="image-text">38k+</span>
-            <span className="text_line">Meter deliverd</span>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-      {/* =============================================  section no 3  closed =================================================== */}
-
-
-{/* =====================================================  seciton 4 ================================================= */}
-<div className="container-fluid"></div>
->>>>>>> 250a2869c5135948dbd52be5707a85510b191d11
 
     </>
   );
