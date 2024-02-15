@@ -1,0 +1,10 @@
+.border-effect {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: transparent;
+    box-shadow: 5px 0 5px -5px rgba(237, 234, 227, 0.5);
+  }
+  
